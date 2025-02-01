@@ -11,7 +11,7 @@ const CategoryList = ({ setSelectedCategory, setSelectedSection, setSelectedValu
         // Fetch categories from backend when component mounts
         const fetchCategories = async () => {
             try {
-                const response = await axios.get('http://192.168.1.194:6002/api/category/random'); 
+                const response = await axios.get('http://localhost:6002/api/category/random'); 
                 setCategories(response.data.categories); // Set the fetched categories to the state
             } catch (error) {
                 console.error('Error fetching categories:', error);
