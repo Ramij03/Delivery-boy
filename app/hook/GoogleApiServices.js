@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Function to calculate distance and time
 const calculateDistanceAndTime = async (startLat, startLng, destinationLat, destinationLng, mode = 'bicycling') => {
-    const apiKey = "AlzaSywsTdIIHqCXJoNV3RHOyNi-VwNtGe0q2oc"; // Replace with your API Key
+    const apiKey = "YourApiKey"; // Replace with your API Key
     const baseUrl = "https://maps.gomaps.pro/maps/api/distancematrix/json"; // Correct endpoint
 
     const ratePerKm = 1;
